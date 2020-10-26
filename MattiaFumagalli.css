@@ -1,0 +1,67 @@
+
+  
+/************************************************************************************
+GENERICI 
+*************************************************************************************/
+
+body {
+    font: 1em/150% Arial, Helvetica, sans-serif;
+    background: lightblue;
+}
+a {
+	color: #669;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1 {
+	font: bold 36px/100% Arial, Helvetica, sans-serif;
+}
+
+/************************************************************************************
+STRUTTURA - dimensione
+*************************************************************************************/
+#pagina {
+	padding: 6px;
+	width: 960px;
+	margin: 22px auto;
+}
+#header {
+	height: 155px;
+}
+h2{
+    text-align: center;
+}
+#content {
+	width: 500px;
+    float: left;
+	text-align: justify;
+	padding: 15px;
+}
+#sidebar {
+	width: 240px;
+    float: left;
+    text-align: center;
+    margin-left: 15px;
+}
+#footer {
+	clear: both;
+}
+
+/* sfondi sostituiti da template*/
+#content {
+	background: #f8f8f8;
+}
+#sidebar {
+	background: #f0efef;
+}
+#header, #content, #sidebar {
+	margin-bottom: 5px;
+}
+#pagewrap, #header, #content, #sidebar, #footer {
+    border: solid 1px #ccc;
+    background-color: #00000020;
+	}
+
+
